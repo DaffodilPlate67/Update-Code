@@ -9,10 +9,10 @@ import edu.wpi.first.wpilibj.command.Subsystem;
 public class Chassis extends Subsystem {
 	CANTalon m1 = new CANTalon(RobotMap.m1);
 //	CANTalon m2 = new CANTalon(RobotMap.m2);
-	//CANTalon m3 = new CANTalon(RobotMap.m3);
+//	CANTalon m3 = new CANTalon(RobotMap.m3);
 	CANTalon m4 = new CANTalon(RobotMap.m4);
-	//CANTalon m5 = new CANTalon(RobotMap.m5);
-	//CANTalon m6 = new CANTalon(RobotMap.m6);
+//	CANTalon m5 = new CANTalon(RobotMap.m5);
+//	CANTalon m6 = new CANTalon(RobotMap.m6);
 
 	public void initDefaultCommand() {
 		setDefaultCommand(new Drive());
