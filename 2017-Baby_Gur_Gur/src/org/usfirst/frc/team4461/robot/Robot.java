@@ -8,7 +8,6 @@ import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
 import org.usfirst.frc.team4461.robot.commands.Drive;
-import org.usfirst.frc.team4461.robot.commands.Intake;
 import org.usfirst.frc.team4461.robot.subsystems.Chassis;
 import org.usfirst.frc.team4461.robot.subsystems.Hopper;
 
